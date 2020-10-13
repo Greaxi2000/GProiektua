@@ -4,4 +4,4 @@ addons:
    token:"67da0e3e798e4ddf8e58f2f513501b5f691f8ff4"
 script:
  
- - mvn -d clean	org.jacoco:jacoco-maven-plugin:prepare-agent org.jacoco:jacocomaven-plugin:report	 install	sonar:sonar
+ - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent org.jacoco:jacocomaven-plugin:report	 install	sonar:sonar
