@@ -102,7 +102,7 @@ public class Player {
             if(!(color.equals(RailRoadCell.COLOR_GROUP)) && !(color.equals(UtilityCell.COLOR_GROUP))) {
     			Integer num = (Integer)colorGroups.get(color);
     			GameBoard gameBoard = GameMaster.instance().getGameBoard();
-    			if(num.intValue() == gameBoard.getPropertyNumberForColor(color)) {
+    			if(num.intValue() == gameBoard.getPropertyNumberForColor(color, true)) {
     				monopolies.add(color);
     			}
             }

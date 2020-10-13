@@ -1,0 +1,7 @@
+addons:
+ sonarcloud:
+   organization:"greaxi2000"
+   token:"67da0e3e798e4ddf8e58f2f513501b5f691f8ff4"
+script:
+ 
+ -mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent org.jacoco:jacoco-maven-plugin:report install sonar:sonar 

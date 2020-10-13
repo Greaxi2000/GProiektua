@@ -43,8 +43,8 @@ public class GameboardTest extends TestCase {
 		gameBoard.addCell(cell1);
 		gameBoard.addCell(cell2);
 		gameBoard.addCell(cell3);
-		assertEquals(2, gameBoard.getPropertyNumberForColor("blue"));
-		assertEquals(1, gameBoard.getPropertyNumberForColor("green"));
+		assertEquals(2, (long) gameBoard.getPropertyNumberForColor("blue", true));
+		assertEquals(1, (long) gameBoard.getPropertyNumberForColor("green", true));
 	}
 	
 	public void testQueryCell() {
