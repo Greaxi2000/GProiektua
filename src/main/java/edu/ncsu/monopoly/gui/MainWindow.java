@@ -118,8 +118,12 @@ public class MainWindow extends JFrame implements MonopolyGUI{
 	public void movePlayer(int index, int from, int to) {
 		GUICell fromCell = queryCell(from);
 		GUICell toCell = queryCell(to);
+		if (fromCell != null) {
 		fromCell.removePlayer(index);
+		}
+		if (toCell != null) {
 		toCell.addPlayer(index);
+		}
 	}
 
     public RespondDialog openRespondDialog(TradeDeal deal) {
