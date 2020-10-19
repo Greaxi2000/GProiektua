@@ -223,6 +223,7 @@ public int dibisaErosi(Integer kontID, Integer sukurID, String mota, float kop) 
 	db.getTransaction().begin();
 	sd.kenduEtaSetKop(kop);
 	
+	
 	db.persist(sd);
 	db.getTransaction().commit();
 	System.out.println(GORDETA + sd);
