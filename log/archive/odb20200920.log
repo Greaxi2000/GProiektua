@@ -1,0 +1,81 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 21:25:53 #1 store] 
+Database 'C:\Users\asier\Documents\Eclipse_Lantokia\Globaleko proiektua\src\main\resources\bets.temp' is opened by 9852@DESKTOP-FMB4N4K
+
+[2020-09-20 21:25:53 #2 type] 
+Type domain.Bezero is not enhanced.
+
+[2020-09-20 21:25:53 #3 type.registry] 
+New type java.util.ArrayList<domain.Kontua>
+
+[2020-09-20 21:25:53 #4 type] 
+Type domain.Kontua is not enhanced.
+
+[2020-09-20 21:25:53 #5 type] 
+Type domain.Sukurtsal is not enhanced.
+
+[2020-09-20 21:25:53 #6 type] 
+Type domain.SukurtsalDibisa is not enhanced.
+
+[2020-09-20 21:25:53 #7 type] 
+Type domain.Dibisa is not enhanced.
+
+[2020-09-20 21:25:53 #8 type] 
+Type domain.Transakzio is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 21:28:44 #1 store] 
+Database 'C:\Users\asier\Documents\Eclipse_Lantokia\Globaleko proiektua\src\main\resources\bets.temp' has been recovered (tr. 762-762)
+
+[2020-09-20 21:28:44 #2 store] 
+Database 'C:\Users\asier\Documents\Eclipse_Lantokia\Globaleko proiektua\src\main\resources\bets.temp' is opened by 17984@DESKTOP-FMB4N4K
+
+[2020-09-20 21:28:44 #3 type] 
+Type domain.Bezero is not enhanced.
+
+[2020-09-20 21:28:44 #4 type] 
+Type domain.Kontua is not enhanced.
+
+[2020-09-20 21:28:44 #5 type] 
+Type domain.Sukurtsal is not enhanced.
+
+[2020-09-20 21:28:44 #6 type] 
+Type domain.SukurtsalDibisa is not enhanced.
+
+[2020-09-20 21:28:44 #7 type] 
+Type domain.Dibisa is not enhanced.
+
+[2020-09-20 21:28:44 #8 type] 
+Type domain.Transakzio is not enhanced.
+
+[2020-09-20 21:31:27 #9 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-09-20 22:41:37 #1 store] 
+Database 'C:\Users\asier\Documents\Eclipse_Lantokia\Globaleko proiektua\src\main\resources\bets.temp' has been recovered (tr. 763-771)
+
+[2020-09-20 22:41:37 #2 store] 
+Database 'C:\Users\asier\Documents\Eclipse_Lantokia\Globaleko proiektua\src\main\resources\bets.temp' is opened by 12780@DESKTOP-FMB4N4K
+
+[2020-09-20 22:41:37 #3 type] 
+Type domain.Bezero is not enhanced.
+
+[2020-09-20 22:41:37 #4 type] 
+Type domain.Kontua is not enhanced.
+
+[2020-09-20 22:41:37 #5 type] 
+Type domain.Sukurtsal is not enhanced.
+
+[2020-09-20 22:41:37 #6 type] 
+Type domain.SukurtsalDibisa is not enhanced.
+
+[2020-09-20 22:41:37 #7 type] 
+Type domain.Dibisa is not enhanced.
+
+[2020-09-20 22:41:37 #8 type] 
+Type domain.Transakzio is not enhanced.
+

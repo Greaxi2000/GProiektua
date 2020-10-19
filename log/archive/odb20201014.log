@@ -1,0 +1,75 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-14 21:35:35 #1 store] 
+Database 'C:\Users\asier\git\SI2Proiektu\src\main\resources\bets.temp' is opened by 3424@DESKTOP-FMB4N4K
+
+[2020-10-14 21:35:36 #2 type] 
+Type domain.Bezero is not enhanced.
+
+[2020-10-14 21:35:36 #3 type] 
+Type domain.Kontua is not enhanced.
+
+[2020-10-14 21:35:36 #4 type] 
+Type domain.Sukurtsal is not enhanced.
+
+[2020-10-14 21:35:36 #5 type] 
+Type domain.SukurtsalDibisa is not enhanced.
+
+[2020-10-14 21:35:36 #6 type.registry] 
+New type domain.sukurtsalSuperclass
+
+[2020-10-14 21:35:36 #7 type] 
+Type domain.Dibisa is not enhanced.
+
+[2020-10-14 21:35:36 #8 type] 
+Type domain.Transakzio is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-14 21:35:57 #1 store] 
+Database 'C:\Users\asier\git\SI2Proiektu\src\main\resources\bets.temp' has been recovered (tr. 789-789)
+
+[2020-10-14 21:35:57 #2 store] 
+Database 'C:\Users\asier\git\SI2Proiektu\src\main\resources\bets.temp' is opened by 12744@DESKTOP-FMB4N4K
+
+[2020-10-14 21:35:57 #3 type] 
+Type domain.Bezero is not enhanced.
+
+[2020-10-14 21:35:58 #4 type] 
+Type domain.Kontua is not enhanced.
+
+[2020-10-14 21:35:58 #5 type] 
+Type domain.Sukurtsal is not enhanced.
+
+[2020-10-14 21:35:58 #6 type] 
+Type domain.SukurtsalDibisa is not enhanced.
+
+[2020-10-14 21:35:58 #7 type] 
+Type domain.Dibisa is not enhanced.
+
+[2020-10-14 21:35:58 #8 type] 
+Type domain.Transakzio is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-14 21:36:21 #1 store] 
+Database 'C:\Users\asier\git\SI2Proiektu\src\main\resources\bets.temp' is opened by 9512@DESKTOP-FMB4N4K
+
+[2020-10-14 21:36:21 #2 type] 
+Type domain.Bezero is not enhanced.
+
+[2020-10-14 21:36:21 #3 type] 
+Type domain.Kontua is not enhanced.
+
+[2020-10-14 21:36:21 #4 type] 
+Type domain.Sukurtsal is not enhanced.
+
+[2020-10-14 21:36:21 #5 type] 
+Type domain.SukurtsalDibisa is not enhanced.
+
+[2020-10-14 21:36:21 #6 type] 
+Type domain.Dibisa is not enhanced.
+
+[2020-10-14 21:36:21 #7 type] 
+Type domain.Transakzio is not enhanced.
+
