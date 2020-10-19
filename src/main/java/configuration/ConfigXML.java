@@ -15,6 +15,8 @@ import org.w3c.dom.NodeList;
  */
 public class ConfigXML {
 	
+	
+	
 	private String configFile = "resources/config.xml";
 		
 	private String businessLogicNode;
@@ -74,11 +76,11 @@ public class ConfigXML {
 	private ConfigXML(){
 		
 		  try {
-			  DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+			  DocumentBuilderFactory dbFactory= DocumentBuilderFactory.newInstance();
 			  DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			  Document doc = dBuilder.parse(new File(configFile));
 			  doc.getDocumentElement().normalize();
-
+			  dbFactory.setFeature("http://apache.org/xml/features/disa llow-doctype-decl", true);
 			  NodeList list = doc.getElementsByTagName("config");
 			  Element config = (Element) list.item(0); // list.item(0) is a Node that is an Element
 
