@@ -77,5 +77,10 @@
             <artifactId>jta</artifactId>
             <version>1.1</version>
         </dependency>
+        <dependency>
+    <groupId>org.glassfish.main.javaee-api</groupId>
+    <artifactId>javax.jws</artifactId>
+    <version>3.1.2.2</version>
+</dependency>
   </dependencies>
 </project>
