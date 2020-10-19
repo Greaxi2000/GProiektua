@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>iso2</groupId>
-  <artifactId>MonopolySept9</artifactId>
+  <artifactId>GProiektu</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Monopoly22222222</name>
+  <name>GProiektu</name>
   <url>http://maven.apache.org</url>
 
 
@@ -52,7 +52,7 @@
        
       <sonar.organization>greaxi2000</sonar.organization>
       <sonar.host.url>https://sonarcloud.io</sonar.host.url>  
-      <sonar.login>67da0e3e798e4ddf8e58f2f513501b5f691f8ff4</sonar.login> 
+      <sonar.login>58d32797b838b10295af7828cdb5d271a47932e0</sonar.login> 
     </properties>
 
   <dependencies>
