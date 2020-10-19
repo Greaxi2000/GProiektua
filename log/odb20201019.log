@@ -1,0 +1,29 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-19 09:16:48 #1 store] 
+Database 'D:\UNIBERTSITATEA\SI2 Klaseak\Lantokia\Monopoly2\src\main\resources\bets.temp' is opened by 11048@DESKTOP-FMB4N4K
+
+[2020-10-19 09:17:04 #2 type.registry] 
+New type domain.Bezero
+
+[2020-10-19 09:17:04 #3 type] 
+Type domain.Bezero is not enhanced.
+
+[2020-10-19 09:17:04 #4 type.registry] 
+New type domain.Kontua
+
+[2020-10-19 09:17:04 #5 type.registry] 
+New type java.util.Vector<domain.Kontua>
+
+[2020-10-19 09:17:04 #6 type] 
+Type domain.Kontua is not enhanced.
+
+[2020-10-19 09:17:04 #7 type.registry] 
+New type domain.Transakzio
+
+[2020-10-19 09:17:04 #8 type.registry] 
+New type java.util.Vector<domain.Transakzio>
+
+[2020-10-19 09:17:04 #9 type] 
+Type domain.Transakzio is not enhanced.
+
