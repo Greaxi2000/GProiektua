@@ -27,3 +27,43 @@ New type java.util.Vector<domain.Transakzio>
 [2020-10-19 09:17:04 #9 type] 
 Type domain.Transakzio is not enhanced.
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-19 11:12:34 #1 store] 
+Database 'D:\UNIBERTSITATEA\SI2 Klaseak\Lantokia\GProiektu\src\main\resources\bets.temp' has been recovered (tr. 1-3)
+
+[2020-10-19 11:12:34 #2 store] 
+Database 'D:\UNIBERTSITATEA\SI2 Klaseak\Lantokia\GProiektu\src\main\resources\bets.temp' is opened by 20076@DESKTOP-FMB4N4K
+
+[2020-10-19 11:12:34 #3 type] 
+Type domain.Bezero is not enhanced.
+
+[2020-10-19 11:12:34 #4 type] 
+Type domain.Kontua is not enhanced.
+
+[2020-10-19 11:12:34 #5 type] 
+Type domain.Transakzio is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-19 11:29:35 #1 store] 
+Database 'D:\UNIBERTSITATEA\SI2 Klaseak\Lantokia\GProiektu\src\main\resources\bets.temp' is opened by 6252@DESKTOP-FMB4N4K
+
+[2020-10-19 11:29:35 #2 type] 
+Type domain.Bezero is not enhanced.
+
+[2020-10-19 11:29:35 #3 type] 
+Type domain.Kontua is not enhanced.
+
+[2020-10-19 11:29:35 #4 type] 
+Type domain.Sukurtsal is not enhanced.
+
+[2020-10-19 11:29:35 #5 type] 
+Type domain.SukurtsalDibisa is not enhanced.
+
+[2020-10-19 11:29:35 #6 type] 
+Type domain.Dibisa is not enhanced.
+
+[2020-10-19 11:29:35 #7 type] 
+Type domain.Transakzio is not enhanced.
+

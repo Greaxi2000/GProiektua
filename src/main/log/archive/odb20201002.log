@@ -1,0 +1,26 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-02 16:17:38 #1 store] 
+Database 'D:\UNIBERTSITATEA\SI2 Klaseak\Lantokia\Globaleko proiektua\src\main\resources\bets.temp' has been recovered (tr. 772-772)
+
+[2020-10-02 16:17:38 #2 store] 
+Database 'D:\UNIBERTSITATEA\SI2 Klaseak\Lantokia\Globaleko proiektua\src\main\resources\bets.temp' is opened by 932@DESKTOP-FMB4N4K
+
+[2020-10-02 16:17:38 #3 type] 
+Type domain.Bezero is not enhanced.
+
+[2020-10-02 16:17:38 #4 type] 
+Type domain.Kontua is not enhanced.
+
+[2020-10-02 16:17:38 #5 type] 
+Type domain.Sukurtsal is not enhanced.
+
+[2020-10-02 16:17:38 #6 type] 
+Type domain.SukurtsalDibisa is not enhanced.
+
+[2020-10-02 16:17:38 #7 type] 
+Type domain.Dibisa is not enhanced.
+
+[2020-10-02 16:17:38 #8 type] 
+Type domain.Transakzio is not enhanced.
+
