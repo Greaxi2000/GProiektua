@@ -80,7 +80,7 @@ public class ConfigXML {
 			  DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			  Document doc = dBuilder.parse(new File(configFile));
 			  doc.getDocumentElement().normalize();
-			  dbFactory.setFeature("http://apache.org/xml/features/disa llow-doctype-decl", true);
+			 // dbFactory.setFeature("http://apache.org/xml/features/disa llow-doctype-decl", true);
 			  NodeList list = doc.getElementsByTagName("config");
 			  Element config = (Element) list.item(0); // list.item(0) is a Node that is an Element
 
