@@ -21,7 +21,7 @@ public class ObjectdbManagerServerAWS {
 
 			System.out.println("Lauching objectdb server");
 		    try { // Se va a ejecutar en máquina Linux: usar "/"
-		    	String st="java -cp resources/objectdb.jar com.objectdb.Server -port "+ c.getDatabasePort()+" start";
+		    	String st="java -cp src/main/resources/objectdb.jar com.objectdb.Server -port "+ c.getDatabasePort()+" start";
 		    	System.out.println(st);
 		    	Runtime.getRuntime().exec(st);
 		    } catch (Exception ioe) {

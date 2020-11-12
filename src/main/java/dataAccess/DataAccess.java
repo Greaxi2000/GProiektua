@@ -73,15 +73,18 @@ public class DataAccess {
 			emf = Persistence.createEntityManagerFactory("objectdb:" + fileName);
 			db = emf.createEntityManager();
 		} else {
-			Map<String, String> properties = new HashMap<String, String>();
-			properties.put("javax.persistence.jdbc.user", c.getUser());
-			properties.put("javax.persistence.jdbc.password", c.getPassword());
-
+			Map<String, String> properties = properties();
 			emf = Persistence.createEntityManagerFactory(
 					"objectdb://" + c.getDatabaseNode() + ":" + c.getDatabasePort() + "/" + fileName, properties);
 
 			db = emf.createEntityManager();
 		}
+	}
+	private Map<String, String> properties() {
+		Map<String, String> properties = new HashMap<String, String>();
+		properties.put("javax.persistence.jdbc.user", c.getUser());
+		properties.put("javax.persistence.jdbc.password", c.getPassword());
+		return properties;
 	}
 
 	public DataAccess() {

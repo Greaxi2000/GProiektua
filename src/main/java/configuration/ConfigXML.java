@@ -17,7 +17,7 @@ public class ConfigXML {
 	
 	
 	
-	private String configFile = "resources/config.xml";
+	private String configFile = "src/main/resources/config.xml";
 		
 	private String businessLogicNode;
 
