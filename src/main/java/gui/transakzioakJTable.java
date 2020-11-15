@@ -32,7 +32,7 @@ public class transakzioakJTable {
 		JTable table = new JTable(model);
 		j.add(new JScrollPane(table));
 
-		 j.setTitle("Joxeleonen transakzioak");
+		 j.setTitle("Transakzioak");
 		 j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		 j.pack();
 		 j.setVisible(true);
