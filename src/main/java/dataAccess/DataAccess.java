@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TimeZone;
+import java.util.Vector;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -256,6 +257,19 @@ public int dibisaErosi(Integer kontID, Integer sukurID, String mota, float kop) 
 	
 	return 0;
 	}
+}
+
+public Vector<Transakzio> getTransakzioak(){
+	System.out.println(">> DataAccess: getEvents");
+	Vector<Transakzio> res = new Vector<Transakzio>();	
+	TypedQuery<Transakzio> query = db.createQuery("SELECT t FROM Transakzio t",Transakzio.class);   
+	List<Transakzio> transakzioak = query.getResultList();
+ 	 for (Transakzio t:transakzioak){
+ 	   System.out.println(t.toString());		 
+	   res.add(t);
+	  }
+ 	return res;
+	
 }
 
 

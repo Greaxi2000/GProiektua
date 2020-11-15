@@ -1,7 +1,8 @@
 package businessLogic;
 
 import java.util.Collection;
-
+import java.util.Date;
+import java.util.Vector;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
@@ -12,7 +13,11 @@ import domain.Bezero;
 import domain.Dibisa;
 import domain.Kontua;
 import domain.Sukurtsal;
+import domain.Transakzio;
+import iterator.ExtendedIterator;
+import iterator.transakzioExtendedIterator;
 
+import java.util.ArrayList;
 /**
  * It implements the business logic as a web service.
  */
@@ -80,6 +85,19 @@ public class BLFacadeImplementation implements BLFacade {
 		dbManager.open(false);
 		return dbManager.dibisaErosi(kontID, sukurID, mota, kop);
 		
+	}
+	@Override
+	public ExtendedIterator getTransakzioak() {
+		// TODO Auto-generated method stub
+		dbManager.open(false);
+		return new transakzioExtendedIterator(new ArrayList<Transakzio>(dbManager.getTransakzioak()));
+	}
+	
+	@Override
+	public Vector<Transakzio> getTransakzioak2() {
+		// TODO Auto-generated method stub
+		dbManager.open(false);
+		return dbManager.getTransakzioak();
 	}
 
 

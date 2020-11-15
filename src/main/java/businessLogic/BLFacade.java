@@ -2,11 +2,8 @@ package businessLogic;
 
 
 import java.util.Collection;
-
-
-
-
-
+import java.util.Date;
+import java.util.Vector;
 
 //import domain.Booking;
 //import domain.Question;
@@ -20,6 +17,9 @@ import javax.jws.WebService;
 import domain.Bezero;
 import domain.Dibisa;
 import domain.Sukurtsal;
+import domain.Transakzio;
+import iterator.ExtendedIterator;
+
 /**
  * Interface that specifies the business logic.
  */
@@ -45,6 +45,10 @@ public interface BLFacade  {
 	@WebMethod public void dibisaSaldu(Integer kontID, Integer sukurID, String mota, float kop);
 	
 	@WebMethod public int dibisaErosi(Integer kontID, Integer sukurID, String mota, float kop);
+	
+	@WebMethod public ExtendedIterator getTransakzioak();
+	
+	@WebMethod public Vector<Transakzio> getTransakzioak2(); 
 
 	
 }
